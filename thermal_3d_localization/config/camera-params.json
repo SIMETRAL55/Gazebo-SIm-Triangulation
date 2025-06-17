@@ -1,0 +1,58 @@
+[
+  {
+    "intrinsic_matrix": [[277, 0, 160], [0, 277, 120], [0, 0, 1]],
+    "distortion_coef": [0, 0, 0, 0, 0],
+    "rotation": [0.0, 0.785, 0.785],
+    "t": [-4.75, -4.75, 5.0],
+    "uv_topic": "/thermal_camera_corner_1/point_uv"
+  },
+  {
+    "intrinsic_matrix": [[277, 0, 160], [0, 277, 120], [0, 0, 1]],
+    "distortion_coef": [0, 0, 0, 0, 0],
+    "rotation": [0.0, 0.785, 2.355],
+    "t": [4.75, -4.75, 5.0],
+    "uv_topic": "/thermal_camera_corner_2/point_uv"
+  },
+  {
+    "intrinsic_matrix": [[277, 0, 160], [0, 277, 120], [0, 0, 1]],
+    "distortion_coef": [0, 0, 0, 0, 0],
+    "rotation": [0.0, 0.785, -0.785],
+    "t": [-4.75, 4.75, 5.0],
+    "uv_topic": "/thermal_camera_corner_3/point_uv"
+  },
+  {
+    "intrinsic_matrix": [[277, 0, 160], [0, 277, 120], [0, 0, 1]],
+    "distortion_coef": [0, 0, 0, 0, 0],
+    "rotation": [0.0, 0.785, -2.355],
+    "t": [4.75, 4.75, 5.0],
+    "uv_topic": "/thermal_camera_corner_4/point_uv"
+  },
+  {
+    "intrinsic_matrix": [[277, 0, 160], [0, 277, 120], [0, 0, 1]],
+    "distortion_coef": [0, 0, 0, 0, 0],
+    "rotation": [0.0, 0.6, -1.570],
+    "t": [0.0, 5.0, 2.5],
+    "uv_topic": "/thermal_camera_mid_front/point_uv"
+  },
+  {
+    "intrinsic_matrix": [[277, 0, 160], [0, 277, 120], [0, 0, 1]],
+    "distortion_coef": [0, 0, 0, 0, 0],
+    "rotation": [0.0, 0.6, 1.57],
+    "t": [0.0, -5.0, 2.5],
+    "uv_topic": "/thermal_camera_mid_back/point_uv"
+  },
+  {
+    "intrinsic_matrix": [[277, 0, 160], [0, 277, 120], [0, 0, 1]],
+    "distortion_coef": [0, 0, 0, 0, 0],
+    "rotation": [0.0, 0.6, 0.0],
+    "t": [-5.0, 0.0, 2.5],
+    "uv_topic": "/thermal_camera_mid_left/point_uv"
+  },
+  {
+    "intrinsic_matrix": [[277, 0, 160], [0, 277, 120], [0, 0, 1]],
+    "distortion_coef": [0, 0, 0, 0, 0],
+    "rotation": [0.0, 0.6, 3.14],
+    "t": [5.0, 0.0, 2.5],
+    "uv_topic": "/thermal_camera_mid_right/point_uv"
+  }
+]

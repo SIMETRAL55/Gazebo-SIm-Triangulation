@@ -1,0 +1,14 @@
+camera_name: thermal_camera_mid_back
+frame_id: thermal_camera_mid_back/link/thermal_camera
+image_topic: /thermal_camera_mid_back/image
+detect_threshold: 1400
+camera_info:
+  width: 320
+  height: 240
+  K: [277.0, 0.0, 160.0,  0.0, 277.0, 120.0,  0.0, 0.0, 1.0]
+  D: [0,0,0,0,0]
+  R: [1,0,0,  0,1,0,  0,0,1]
+  P: [277.0,0.0,160.0,0.0,  0.0,277.0,120.0,0.0,  0.0,0.0,1.0,0.0]
+extrinsics:
+  translation: [0.0, -5.0, 2.5]
+  rotation_rpy: [0.0, 0.6, 1.57]
